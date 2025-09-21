@@ -9,25 +9,39 @@
 }
 header{
     background-color: rgb(199, 16, 175);
-   
+   height: auto;
+    padding: 16px;
     /* display: flex;
     align-items: center;
     justify-content: center;
 gap: 40px; */
 
 }
+h1{
+    font-size:2.4em;
+}
+p, h3{
+    font-size: 1.8em;
+}
+h5{
+    font-size: 1.4em;
+}
 header h1, header p{
     margin-bottom: 9px;
+   
     text-align: center;
     color: white;
 }
 button{
-    width: 140px;
+    width:auto;
+    padding: 6px;
    background-color: rgb(199, 16, 175);
    border: none;
-   height: 30px;
+ 
    cursor: pointer;
    margin-top: 10px;
+   border-radius: 8px;
+    font-size: 1.4em;
 }
 h5,h3{
     margin-top: 10px;
@@ -35,7 +49,7 @@ h5,h3{
 section{
     margin-top: 20px;
     margin-left: 40px;
-
+margin-right: 40px;
 }
 .ans1, .ans2, .ans3{
     display: none;
@@ -45,7 +59,30 @@ footer{
      margin-bottom: 9px;
     text-align: center;
     color: white;
-    margin-top: 60px;
-    height: 100px;
-    padding: 40px;
+   margin-top: 60px;
+   
+    padding: 52px;
 }
+@media (max-width: 460px) {
+      button {
+        display: block;    /* щоб кожна кнопка була з нового рядка */
+        width: 100%;       /* займає всю ширину */
+        background-color: tomato;
+        font-size: 1.12em;
+      }
+      header, footer{
+        background-color: tomato;
+
+      }
+   h1{
+    font-size:1.94em;
+}
+p, h3{
+    font-size: 1.44em;
+}
+h5{
+    font-size: 1.12em;
+
+}
+
+    }

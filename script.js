@@ -1,6 +1,7 @@
 let ans1 = document.querySelector ('.ans1')
 let ans2 = document.querySelector ('.ans2')
 let ans3 = document.querySelector ('.ans3')
+
 function toggle (cls){
     if (cls== 'ans1'){
         if (ans1.style.display == 'none'){
@@ -33,3 +34,4 @@ if (cls== 'ans2'){
     }
 
 }
+
